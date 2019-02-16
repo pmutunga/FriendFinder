@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FriendFinder</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome Glyphicons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<style>
+
+    #main-content {
+        /* //background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467); */
+        /*background: url(https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);*/
+        background: url(https://images.unsplash.com/photo-1541582642760-bdb61a754e88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+        background-color: lightgrey;
+        background-size:cover;
+        background-position:  center;
+        height: 100%;
+    }
+    #content {
+        text-align:center;
+        padding-top: 5%;
+        padding-bottom: 35%;
+
+        color: black;
+    }
+    #c-para {
+       /* background: rgba(188, 255, 252, 0.6);*/
+    }
+
+</style>
+</head>
+
+<body>
+    <!-- Add the Nav Bar -->
+<!-- Add the Nav Bar -->
+<nav class="navbar navbar-default">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Survey</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      
+
+
+  <!--<div class="container">
+
+    <div class="jumbotron">
+      <h1><i class="fa fa-facebook-square" aria-hidden="true"></i> The only Friend Finder</h1>
+      <hr>
+      <h2>Answer a few basic questions. </h2>
+      <h2>Then find the friend with the greatest compatibility!</h2>
+      <br>
+
+      <div>
+        <a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a>
+      </div>
+
+    </div>
+
+
+
+  </div> -->
+  
+<!-- Add the content and background image -->
+	<div class="container">
+            <div class="row">
+                <div class="col-lg-12" id="main-content">
+                    <div id="content">
+                            <h1><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
+                            <div id="c-para">
+                            <p>Answer a few basic questions. </p>
+                            <p>Then find the friend with the greatest compatibility!</p>
+                        </div>
+                        <br>
+                        <div>
+                                <a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a>
+                              </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+    
+        <footer class="footer">
+                <div class="container">
+                  <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+                </div>
+              </footer>
+
+</body>
+
+</html>

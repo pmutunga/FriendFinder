@@ -1,0 +1,30 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Find a friend who is compatible with you",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmutunga/FriendFinder.git"
+  },
+  "keywords": [
+    "friend",
+    "finder",
+    "express"
+  ],
+  "author": "pmutunga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmutunga/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/pmutunga/FriendFinder#readme"
+}
