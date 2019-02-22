@@ -6,7 +6,7 @@
 // DEPENDENCIES
 // We need to include the path package to get the correct file path for our html
 // ===============================================================================
-var path = require("path");
+var path = require("path"); //Question for TA - how come we don't require express here? How does the app "know" that app is express?
 
 
 // ===============================================================================
@@ -19,12 +19,26 @@ module.exports = function(app) {
   // In each of the below cases the user is shown an HTML page of content
   // ---------------------------------------------------------------------------
 
+  // app.get("/survey", function(req, res) {
+  //   res.sendFile(path.join(__dirname, "../public/survey.html"));
+  // });
+  
   app.get("/survey", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/survey.html"));
+    res.sendFile(path.join(__dirname + "/../public/survey.html"));
   });
 
-  app.get("/", function(req, res) {
+  /*app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/home.html"));
+  });*/
+
+  app.use(function(req, res){
+    res.sendFile(path.join(__dirname + "/../public/home.html"));
+  });
+
+   //post 
+
+   app.post("/", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/home.html"));// TA question - use res.Redirect?
   });
 
   // If no matching route is found default to home
