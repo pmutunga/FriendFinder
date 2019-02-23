@@ -3,8 +3,7 @@ Find a friend who's compatible with you. Rafiki is a Swahili word that means "fr
 
 FriendFiner is a full-stack site will take in results from users' surveys, then compares their answers with those from other users in order to find the best match. The app displays the name and picture of the user with the best overall match.
 
-I used Express to handle routing. This app is available on this Heroku link.
-Rafiki!]https://rakifi.herokuapp.com/
+I used Express to handle routing. This app is available on [this link!](https://rakifi.herokuapp.com/)
 
 # Key Features 
 
