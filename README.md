@@ -56,7 +56,8 @@ The app has 2 HTML pages
 
 ## Survey Page
 
-![Friend Finder Survey](app/public/images/ffsurvey.PNG)
+![Friend Finder Survey](app/public/images/ffsurvey.png)
+
 
 ## API displaying all friends
 
